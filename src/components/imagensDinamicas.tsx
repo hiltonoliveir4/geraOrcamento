@@ -28,6 +28,7 @@ export function ImagensDinamicas() {
 
   return (
     <div>
+        <h2 className="font-bold mb-4 text-gray-400">Imagens</h2>
         <div className="flex flex-wrap gap-4">
             {fields.map((field, index) => (
                 <div key={field.id} className="relative w-32 h-32 rounded-lg">
